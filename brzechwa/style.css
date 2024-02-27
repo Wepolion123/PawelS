@@ -1,0 +1,26 @@
+body {
+	background: #424242;
+	}
+span {
+	font-weight: bold;
+	color: #33FFFF;
+	}
+p {
+	color: #A7A7A7;
+	text-align: justify;
+	font-family: Cambria;
+	font-size: 20px;
+	}
+h1 {
+	color: #8E6B23;
+	font-family: Verdana;
+	}
+img {
+	float: right;
+	padding: 7px;
+	margin: 0px;
+	}
+
+A:link {color:black;}
+A:visited {color:green;}
+A:hover {color:red; text-decoration:underline;}
