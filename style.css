@@ -27,6 +27,15 @@ title {
 	font-family: Verdana;
 	text-align: center;
 	}
+button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        }
 
 A:link {color:black;}
 A:visited {color:green;}
