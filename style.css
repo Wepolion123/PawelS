@@ -23,6 +23,11 @@ img {
 	margin: 0px;
 	}
 
+title {
+	font-family: Verdana;
+	text-align: center;
+	}
+
 A:link {color:black;}
 A:visited {color:green;}
 A:hover {color:red; text-decoration:underline;}
