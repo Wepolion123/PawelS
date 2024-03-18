@@ -1,20 +1,20 @@
 body {
-    background: #2c3e50; /* Nowy kolor tła */
-    color: #ecf0f1; /* Nowy kolor tekstu */
+    background: #2c3e50;
+    color: #ecf0f1;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
 h1.title {
-    color: #f39c12; /* Nowy kolor dla nagłówka h1 */
+    color: #f39c12;
     font-family: Verdana;
-    margin: 40px; /* Nowy styl - odstęp od krawędzi */
+    margin: 40px; 
     padding: 10px;
 }
 
 .opis {
-    color: #bdc3c7; /* Nowy kolor dla akapitów */
+    color: #bdc3c7;
     text-align: justify;
     font-family: Cambria;
     font-size: 20px;
