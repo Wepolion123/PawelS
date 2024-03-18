@@ -1,13 +1,29 @@
 body {
-    text-align: left;
-    margin: 600px;
+    background: #2c3e50; /* Nowy kolor tła */
+    color: #ecf0f1; /* Nowy kolor tekstu */
+    text-align: left; /* Nowy styl - tekst wyrównany do lewej */
+    margin: 600px; /* Nowy styl - odstęp od krawędzi */
+}
+
+span {
+    font-weight: bold;
+    color: #3498db; /* Nowy kolor dla elementu span */
+}
+
+p {
+    color: #bdc3c7; /* Nowy kolor dla akapitów */
+    text-align: justify;
+    font-family: Cambria;
+    font-size: 20px;
 }
 
 h1 {
-    margin: 40px;
+    color: #f39c12; /* Nowy kolor dla nagłówka h1 */
+    font-family: Verdana;
+    text-align: center;
+    margin: 40px; /* Nowy styl - odstęp od krawędzi */
     border: 0px solid red;
     background: purple;
-    color: #8E6B23; /* Zachowujemy kolor dla nagłówka h1 */
     padding: 10px;
 }
 
