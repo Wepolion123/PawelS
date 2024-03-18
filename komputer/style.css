@@ -1,23 +1,20 @@
 body {
     text-align: left;
-    margin: 0 auto; /* Centrowanie zawartości */
-    padding: 20px; /* Dodanie odstępu od krawędzi */
+    margin: 600px;
 }
 
 h1 {
     margin: 40px;
     border: 0px solid red;
     background: purple;
-    color: #ecf0f1; /* Zmiana koloru tekstu */
-    padding: 10px; /* Dodanie odstępu wewnętrznego */
-    border-radius: 5px; /* Zaokrąglenie narożników */
+    color: #8E6B23; /* Zachowujemy kolor dla nagłówka h1 */
+    padding: 10px;
 }
 
 hr {
-    padding: 0;
-    margin: 0;
-    border: none;
-    border-top: 2px solid blue; /* Zmiana koloru linii */
+    padding: 0px;
+    margin: 0px;
+    color: blue;
 }
 
 a {
@@ -26,6 +23,6 @@ a {
 }
 
 a:hover {
-    color: red; /* Zmiana koloru po najechaniu myszką */
+    color: red;
     text-decoration: underline;
 }
