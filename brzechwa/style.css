@@ -1,6 +1,6 @@
 body {
-    background: #2c3e50; /* Nowy kolor tła */
-    color: #ecf0f1; /* Nowy kolor tekstu */
+    background: #2c3e50;
+    color: #ecf0f1;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -8,18 +8,18 @@ body {
 
 span {
     font-weight: bold;
-    color: #33FFFF; /* Zachowujemy kolor dla elementu span */
+    color: #33FFFF; 
 }
 
 p {
-    color: #A7A7A7; /* Zachowujemy kolor dla akapitów */
+    color: #A7A7A7;
     text-align: justify;
     font-family: Cambria;
     font-size: 20px;
 }
 
 h1 {
-    color: #8E6B23; /* Zachowujemy kolor dla nagłówka h1 */
+    color: #8E6B23;
     font-family: Verdana;
 }
 
