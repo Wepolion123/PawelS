@@ -19,26 +19,49 @@ p {
 }
 
 h1 {
-    color: #f39c12; 
+    color: #f39c12;
     font-family: Verdana;
     text-align: center;
 }
 
-img.logo {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 100px;
+.logo-small {
+    width: 80px;
+    margin-right: 20px;
 }
 
-.title {
-    font-family: Verdana;
-    text-align: center;
+.navbar {
+    background-color: #27ae60;
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
-.button {
+.navbar-items {
+    flex-grow: 1;
+}
+
+.navbar-item {
     display: inline-block;
     padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.navbar-item:hover {
+    background-color: #2ecc71;
+}
+
+.centered-buttons {
+    margin-top: 50px;
+}
+
+.centered-button {
+    display: inline-block;
+    padding: 15px 30px;
     background-color: #27ae60;
     color: white;
     text-decoration: none;
@@ -49,17 +72,14 @@ img.logo {
     margin: 10px;
 }
 
-.button:hover {
+.centered-button:hover {
     background-color: #2ecc71;
+}
+
+.rozwijane {
+    /* styl dla treści do rozwijania */
 }
 
 a:link,
 a:visited {
-    color: #ecf0f1;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
+    c
