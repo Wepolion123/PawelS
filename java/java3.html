@@ -1,0 +1,31 @@
+// LISTING 1.0
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1250">
+</HEAD>
+
+<SCRIPT language="javascript" type="text/javascript">
+<!-- Ukrycie przed przeglądarkami nie obsługującymi JavaScriptów
+var MSIE = navigator.appName == "Microsoft Internet Explorer"?true:false;
+var NN = navigator.appName == "Netscape"?true:false;
+function blockMouseClick(evt)
+{
+  if(MSIE && (event.button == 2)){
+      alert("Blokada prawego przycisku myszy");
+      return false;
+  }
+  else if(NN && ((evt.which == 2) || (evt.which == 3))){
+      alert("Blokada prawego przycisku myszy");
+      return false;
+  }
+}
+document.onmousedown=blockMouseClick;
+// Koniec kodu JavaScript -->
+</SCRIPT>
+
+<BODY oncontextmenu="return false">
+
+<H1><CENTER>Treść strony</H1></CENTER>
+
+</BODY>
+</HTML>
