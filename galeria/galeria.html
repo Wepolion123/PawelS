@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moja Galeria</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2C900D;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .gallery-item {
+      flex-basis: calc(33.33% - 20px); /* Trzy kolumny, odstęp między elementami */
+      margin-bottom: 20px;
+    }
+    .gallery-item img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .gallery-item img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Moja Galeria</h1>
+    <div class="gallery">
+      <div class="gallery-item">
+        <a href="1.jpg">
+          <img src="1.jpg" alt="Zdjęcie 1">
+        </a>
+        <p>zdjęcie 1</p>
+      </div>
+      <div class="gallery-item">
+        <a href="2.jpg">
+          <img src="2.jpg" alt="Zdjęcie 2">
+        </a>
+        <p>zdjęcie 2</p>
+      </div>
+      <div class="gallery-item">
+        <a href="3.jpg">
+          <img src="3.jpg" alt="Zdjęcie 3">
+        </a>
+        <p>zdjęcie 3</p>
+      </div>
+      <div class="gallery-item">
+        <a href="4.jpg">
+          <img src="4.jpg" alt="Zdjęcie 4">
+        </a>
+        <p>zdjęcie 4</p>
+      </div>
+      <div class="gallery-item">
+        <a href="5.jpg">
+          <img src="5.jpg" alt="Zdjęcie 5">
+        </a>
+        <p>zdjęcie 5</p>
+      </div>
+      <div class="gallery-item">
+        <a href="6.jpg">
+          <img src="6.jpg" alt="Zdjęcie 6">
+        </a>
+        <p>zdjęcie 6</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
