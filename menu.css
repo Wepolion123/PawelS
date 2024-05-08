@@ -1,0 +1,67 @@
+nav {
+    position: fixed; /* Menu będzie trzymać się góry ekranu */
+    top: 0; /* Ustawienie na górze ekranu */
+    width: 100%; /* Menu będzie miało szerokość ekranu */
+    z-index: 999; /* Upewniamy się, że menu jest na wierzchu */
+    background-color: #008fea; /* Kolor tła menu */
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+nav ul li a:focus {
+    color: white;
+}
+
+nav ul li a:not(:only-child)::after {
+    padding-left: 4px;
+    content: " ▾";
+}
+
+.dropdown {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.dropdown.active {
+    display: block;
+    max-height: 200px;
+}
+
+.dropdown li {
+    padding: 10px;
+}
+
+.dropdown li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown li a:hover {
+    background-color: #eee;
+}
